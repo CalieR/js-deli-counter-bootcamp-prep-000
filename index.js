@@ -8,8 +8,9 @@ function takeANumber(queue, newCustomer) {
 }
 // rewrite take a number
 // welcome customer with their number.
-// array of numbers
-//declare empty array
+// initialise an empty counter to keep track of the numbers
+// add one when new customer arrives, push the number to the array
+// greet customer
 
 let counter = 0;
 function takeANumber(queue) {
