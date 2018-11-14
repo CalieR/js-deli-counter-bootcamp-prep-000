@@ -6,6 +6,17 @@ function takeANumber(queue, newCustomer) {
   queue.push(newCustomer);
   return `Welcome, ${newCustomer}. You are number ${queue.length} in line.`;
 }
+// rewrite take a number
+// welcome customer with their number.
+// array of numbers
+//declare empty array
+
+let counter = 0;
+function takeANumber(queue) {
+  counter ++;
+  queue.push(counter);
+  return `Welcome, you are number ${counter} in the queue`;
+}
 
 
 // function currentLine(queue):
